@@ -1,0 +1,16 @@
+<div class="container">
+    <p class="timer">
+        <span>{{hours}}</span>
+        <span>:</span>
+        <span>{{minutes}}</span>
+        <span>:</span>
+        <span>{{seconds}}</span>
+    </p>
+     <div class="btns">
+        <button mat-raised-button color="primary" (click)="start()">Start</button>
+        <button mat-raised-button color="accent" (click)="stop()">Stop</button>
+        <button mat-raised-button #wait>Wait</button>
+        <button mat-raised-button color="warn" (click)="reset()">Reset</button>
+</div>
+     </div> 
+    
